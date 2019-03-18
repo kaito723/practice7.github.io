@@ -10,4 +10,4 @@ $(function () {
 		$('.zdo_drawer_button').removeClass('active');
 		$('nav').removeClass('open');
 	});
-})
+});
