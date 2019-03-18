@@ -1,0 +1,129 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+}
+li{
+  list-style: none;
+}
+#header{
+  position:fixed;
+  z-index: 2;
+  width:100%;
+  top:0;
+  background-color: #fff;
+}
+.top-wrap{
+ margin-top: 100px;
+}
+.top-left{
+
+}
+.top-right{
+  line-height: 35px;
+  background-color: rgba(192,192,192,.3);
+}
+tr{
+  border-bottom:solid 1px #000;
+  font-size: 12px;
+  font-style: oblique;
+}
+td{
+  padding-left:20px;
+}
+td a{
+  color:#808080;
+}
+.concept-wrap{
+  margin-top:200px;
+}
+.concept-right{
+  background-color: rgba(0,0,0,.3);
+}
+.concept-text{
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  line-height:28px;
+  font-size:13px;
+  color:#fff;
+}
+.staff-wrap{
+  margin-top:100px;
+  padding-top:50px;
+  background-color:rgba(128,128,0,.4);
+}
+.head-spa{
+  margin-top:100px;
+}
+.style-gallery{
+  background-color:rgba(0,128,0,.1);
+  margin-top:150px;
+  padding-top: 50px;
+}
+.style-btn{
+  margin:30px auto;
+}
+.recruit-wrap{
+  margin-top:150px;
+}
+.recruit{
+  position:relative;
+}
+.recruit-img{
+  background-color: #000;
+}
+.recruit img{
+  display: block;
+  opacity:.7;
+}
+.recruit img:hover{
+  opacity:1.0;
+}
+.shop-wrap{
+  margin-top:150px;
+}
+.question-wrap{
+  margin-top:150px;
+  margin-bottom:100px;
+}
+.questions {
+  border-bottom: solid 1px #000;
+  margin:20px 0;
+}
+.questions:hover{
+  cursor: pointer;
+}
+.answer{
+  margin-top:30px;
+  display: none;
+}
+footer{
+  background-color:#c0c0c0;
+  padding: 70px 0;
+}
+footer a{
+  font-size:22px;
+  color:#fff;
+}
+
+.zdo_drawer_nav li{
+  text-align: center;
+}
+/*responsive*/
+@media(max-width:767px){
+  .zdo_drawer_menu .zdo_drawer_button {
+    margin-right:-60px;
+  }
+  .spa-text{
+    font-size: 20px;
+  }
+  footer a{
+    font-size: 15px;
+  }
+  .footer-btn{
+    width:50px;
+  }
+  .liaison-due{
+    margin-top:100px;
+  }
+}
